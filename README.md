@@ -14,3 +14,8 @@ composer install
 ## Настройка
 
 1. Переимновываем файл .env.example в .env
+2. Генерируем ключ
+```
+php artisan key:generate
+```
+3. Создаем storage link

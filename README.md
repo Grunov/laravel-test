@@ -46,3 +46,7 @@ MAIL_ENCRYPTION=null
 MAIL_FROM_ADDRESS=null
 MAIL_FROM_NAME="${APP_NAME}"
 ```
+7. Запускаем приложение:
+```
+php artisan serve
+```

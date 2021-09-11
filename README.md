@@ -5,3 +5,8 @@
 ```
 git clone https://github.com/Grunov/laravel-test.git
 ```
+
+### Устанавливаем зависимости:
+```
+composer install
+```

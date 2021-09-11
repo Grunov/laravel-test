@@ -31,3 +31,7 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+5. Запускаем миграции:
+```
+php artisan migrate
+```

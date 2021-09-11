@@ -35,3 +35,14 @@ DB_PASSWORD=
 ```
 php artisan migrate
 ```
+6. В файле .env настраиваем почтовый драйвер:
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME="${APP_NAME}"
+```
